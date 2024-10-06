@@ -191,3 +191,91 @@
 // }
 
 // // // While, do…while. Ushbu masalalarni har ikki operator orqali ishlansin
+// // 1-SAVOL JAVOBI
+// let C = 1;
+// while (C <= 10) {
+//   console.log(C);
+//   C++;
+// }
+
+// // 2-MASALA
+// let C = 10;
+// while (C >= 1) {
+//   console.log(C);
+//   C--;
+// }
+
+// // 3-MASALA JAVOBI
+// let C = +prompt("Son kiriting");
+// while (C < 0) {
+//   alert("Musbat son kiriting");
+//   C = +prompt("Son kiriting");
+//   console.log(C);
+// }
+
+// // 4-MASALA JAVOBI
+// let C = 0;
+// while (C <= 20) {
+//   console.log(C);
+//   C += 2;
+// }
+// // 5-SAVOL JAVOBI
+// let num = +prompt("Son kiriting");
+// let sum = "";
+// let res;
+// while (num > 0) {
+//   res = num % 10;
+//   sum += res;
+//   num = Math.floor(num / 10);
+// }
+// alert(sum);
+// // 6-SAVOL JAVOBI
+// let num = +prompt("Son kiriting");
+// while (num > 1) {
+//   console.log(Math.trunc(num));
+//   num /= 2;
+// }
+// // 7-SAVOL JAVOBI
+// let num = +prompt("Son kiriting");
+// let res;
+
+// while (num > 0) {
+//   res = num % 10;
+//   if (res % 2 == 1) {
+//     console.log(res);
+//   }
+//   num = Math.trunc(num / 10);
+// }
+// // 8-SAVOL JAVOBI
+// // 9-SAVOL JAVOBI
+// let num = +prompt("Son kiriting");
+// let rev = "";
+// let res;
+
+// while (num > 0) {
+//   res = num % 10;
+//   rev += res;
+//   num = Math.floor(num / 10);
+// }
+// alert(rev);
+// // 10-SAVOL JAVOBI
+// // 11-SAVOL JAVOBI
+// let num = +prompt("Sonni kiriting:");
+// let rev = ``;
+
+// let i = num.length - 1;
+// while (i >= 0) {
+//   rev += num[i];
+//   i--;
+// }
+// console.log(rev);
+// let num = prompt("Sonni kiriting:");
+// let rev = 0;
+
+// let i = num.length - 1;
+// while (i >= 0) {
+//   rev += num;
+//   i--;
+// }
+
+// alert(rev);
