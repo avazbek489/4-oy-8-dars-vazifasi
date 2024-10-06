@@ -247,6 +247,24 @@
 //   num = Math.trunc(num / 10);
 // }
 // // 8-SAVOL JAVOBI
+// let num1 = +prompt("1-sonni kiriting");
+// let num2 = +prompt("2-sonni kiriting");
+
+// if (num1 > num2) {
+//   while (num2 < num1) {
+//     if (num2 % 3 == 0) {
+//       console.log(num2);
+//     }
+//     num2++;
+//   }
+// } else {
+//   while (num1 < num2) {
+//     if (num1 % 3 == 0) {
+//       console.log(num1);
+//     }
+//     num1++;
+//   }
+// }
 // // 9-SAVOL JAVOBI
 // let num = +prompt("Son kiriting");
 // let rev = "";
@@ -259,6 +277,7 @@
 // }
 // alert(rev);
 // // 10-SAVOL JAVOBI
+
 // // 11-SAVOL JAVOBI
 // let num = +prompt("Sonni kiriting:");
 // let rev = ``;
