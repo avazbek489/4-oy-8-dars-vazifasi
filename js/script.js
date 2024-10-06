@@ -278,7 +278,7 @@
 // alert(rev);
 // // 10-SAVOL JAVOBI
 // let num = +prompt("Fibonachchi tartib raqamini kiriting");
-// let a = 0,
+// let sum = 0,
 //   res = 1,
 //   fib = 0,
 //   g = 0;
