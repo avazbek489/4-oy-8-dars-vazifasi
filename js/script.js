@@ -277,7 +277,18 @@
 // }
 // alert(rev);
 // // 10-SAVOL JAVOBI
-
+// let num = +prompt("Fibonachchi tartib raqamini kiriting");
+// let a = 0,
+//   res = 1,
+//   fib = 0,
+//   g = 0;
+// while (g < num) {
+//   fib = sum;
+//   sum = res;
+//   res = fib + res;
+//   g++;
+// }
+// alert(fib);
 // // 11-SAVOL JAVOBI
 // let num = +prompt("Sonni kiriting:");
 // let rev = ``;
